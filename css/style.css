@@ -480,3 +480,5 @@ p{
     min-width: 32px;
     position: relative;
 }
+@media (max-width: 390px) {
+}
