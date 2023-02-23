@@ -1,3 +1,20 @@
+.homeicon {
+    display:flex;
+    justify-content:flex-start;
+}
+.logo {
+    display:flex;
+    justify-content: center;
+}
+.settings {
+    display: flex;
+    justify-content: flex-end;
+}
+.diary {
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
 h1{
     font-family: 'Futura';
     font-size: 36px;
@@ -8,7 +25,7 @@ h1{
     }
     
     
-    h2{
+h2{
     font-family: 'Futura Md BT';
     font-size: 30px;
     font-weight: 400;
@@ -18,7 +35,7 @@ h1{
     }
     
     
-    h3{
+h3{
     font-family: 'Futura Md BT';
     font-size: 24px;
     font-weight: 400;
@@ -28,7 +45,7 @@ h1{
     }
     
     
-    h4{
+h4{
     font-family: 'Futura Md BT';
     font-size: 20px;
     font-weight: 400;
@@ -38,7 +55,7 @@ h1{
     }
     
     
-    h5{
+h5{
     font-family: 'Futura Bk BT';
     font-size: 20px;
     font-weight: 400;
@@ -48,7 +65,7 @@ h1{
     }
     
     
-    h6{
+h6{
     font-family: 'Futura Bk BT';
     font-size: 18px;
     font-style: italic;
@@ -59,7 +76,7 @@ h1{
     }
     
     
-    p{
+p{
     font-family: 'Futura Bk BT';
     font-size: 16px;
     font-weight: 400;
@@ -69,7 +86,7 @@ h1{
     }
     
     
-    .p2{
+.p2{
     font-family: 'Futura Bk BT';
     font-size: 14px;
     font-weight: 400;
@@ -77,4 +94,391 @@ h1{
     letter-spacing: 0em;
     text-align: left;
     }
-    
+.frame1{
+        border-radius: 50px;
+        width: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-color: #B9B9B9;
+        margin: 16px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 16px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    }
+.buttonText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+    }
+ .rightchevron{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+ }
+.myplants{
+    color:black;
+    font-family:'futura';
+    font: size 36px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position:relative;
+    text-align: center;
+    width:fit-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.sec-carla{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.carla-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame4{
+    align-items: center;
+    gap:16px;
+}
+.frame5{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-carla{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.aglaonema{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron1{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+.sec-twister{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.twister-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame6{
+    align-items: center;
+    gap:16px;
+}
+.frame7{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-twister{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.haworthi{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron2{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+.sec-hope{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.hope-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame8{
+    align-items: center;
+    gap:16px;
+}
+.frame9{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-hope{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.aphelandra{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron3{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+.sec-castiron{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.castiron-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame10{
+    align-items: center;
+    gap:16px;
+}
+.frame11{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-castiron{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.aspidistra{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron4{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+.sec-theresa{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.theresa-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame12{
+    align-items: center;
+    gap:16px;
+}
+.frame13{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-theresa{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.araucaria{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron5{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+.sec-airplant{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.airplant-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame14{
+    align-items: center;
+    gap:16px;
+}
+.frame15{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-airplant{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.bromeliaceae{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron6{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+.sec-barry{
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.barry-img{
+    min-width: 64px;
+    height: 64px;
+    object-fit: cover;
+    position: relative;
+}
+.frame16{
+    align-items: center;
+    gap:16px;
+}
+.frame17{
+    align-items:flex-start;
+    flex-direction: column;
+}
+.name-barry{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+}
+.begonia{
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+.rightchevron7{
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+}
+@media (max-width: 390px) {
+}
