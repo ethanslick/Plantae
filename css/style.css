@@ -17,8 +17,8 @@ h2{
     letter-spacing: 0em;
     text-align: left;
     }
-    
-    
+
+
 h3{
     font-family: 'Futura Md BT';
     font-size: 24px;
@@ -81,9 +81,7 @@ p{
 ul{
         list-style: none;
     }
-    
-    
-    
+
 header{
         position:fixed;
         background-color: #ffffff;
@@ -114,8 +112,7 @@ header{
         padding-right: 32px;
         text-align: center;
     }
-    
-.frame1{
+.waterButton{
         border-radius: 50px;
         width: auto;
         margin-top: 32px;
@@ -126,7 +123,7 @@ header{
         flex-direction: row;
         align-items: center;
         padding: 8px 16px;
-        gap: 16px;
+        gap: 16px;    
         background: #FFFFFF;
         border: 1px solid rgba(0, 0, 0, 0.25);
         box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
