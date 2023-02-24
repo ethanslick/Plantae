@@ -1,20 +1,4 @@
-.homeicon {
-    display:flex;
-    justify-content:flex-start;
-}
-.logo {
-    display:flex;
-    justify-content: center;
-}
-.settings {
-    display: flex;
-    justify-content: flex-end;
-}
-.diary {
-    display: flex;
-    justify-content:flex-end;
-    align-items:center;
-}
+@media (max-width: 450px) {
 h1{
     font-family: 'Futura';
     font-size: 36px;
@@ -94,6 +78,43 @@ p{
     letter-spacing: 0em;
     text-align: left;
     }
+ul{
+        list-style: none;
+    }
+    
+    
+    
+header{
+        position:fixed;
+        background-color: #ffffff;
+        top: 0%;
+    }
+.battery{
+        width: 100%;
+        background-color: #ffffff;
+        top:0%;
+    }
+.topMenu{
+        flex-direction: row;
+    }
+.menu{
+        width: 100%;
+        background-color: #ffffff;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 16px;
+    }
+.navBar{
+        width: 100%;
+        background-color: #ffffff;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 32px;
+        text-align: center;
+    }
+    
 .frame1{
         border-radius: 50px;
         width: auto;
@@ -117,7 +138,7 @@ p{
         align-items: flex-start;
         padding: 0px;
     }
- .rightchevron{
+.rightchevron{
     height: 32px;
     min-width: 32px;
     position: relative;
@@ -480,5 +501,4 @@ p{
     min-width: 32px;
     position: relative;
 }
-@media (max-width: 390px) {
 }
